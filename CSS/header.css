@@ -1,0 +1,31 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header .header__title{
+  font-size: 25px;
+  font-weight: 600; /* google font에서 import한 두께로 설정*/
+}
+
+.header .header__icon{
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header .header__column{
+  display:flex;
+  align-items: center; 
+}
+
+.header .header__back-btn{
+  font-size: 9px;
+  margin-right: 18px;
+}
+
+.header .header__title{
+  font-size: 18px;
+}
