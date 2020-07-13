@@ -57,16 +57,22 @@
           </div>
         </div>
         <div class="friend__column">
-          <span>MY</span>
-          <span>194</span>
+          <button>MY</button>
+          <button>
+            <i class="fas fa-dog"></i>
+            <span>194</span>
+          </button>
         </div>
       </li>
       <div class="more__grey-area">
         <div class="grey-area_column">
-          <i class="fas fa-comment"></i>pay 0
+          <i class="fas fa-comment"></i>
+          <span class="pay">pay</span>
+          <span>0</span>
         </div>
         <div class="grey-area_column">
           <span>Send</span>
+          <span id="opacity">|</span>
           <span>Pay</span>
         </div>
       </div>
@@ -106,22 +112,16 @@
       </ul>
     </header>
     <section class="more__suggestions">
-      <ul class="more__suggestions-list">
-        <li class="more__suggestion suggestion">
-          <span class="more__suggestion__mail-icon">
-            <i class="far fa-envelope"></i>
-          </span>
-          <span class="more__suggestion__mail-title">
-            Mail Join
-          </span>
-          <span class="more__suggestion__event-icon">
-            <i class="far fa-calendar-check"></i>
-          </span>
-          <span class="more__suggestion__event-title">
-            Calendar New Event
-          </span>
-        </li>
-      </ul>
+      <div class="suggestions-mail">
+        <i class="far fa-envelope"></i>
+        <span class="title">Mail</span>
+        <span class="sub-title">Join</span>
+      </div>
+      <div class="suggestions-event">
+        <i class="far fa-calendar-check"></i>
+        <span class="title">Calendar</span>
+        <span class="sub-title">New Event</span>
+      </div>
     </section>
   </main>
   <nav class="nav">

@@ -7,7 +7,7 @@
 
 .header .header__title{
   font-size: 25px;
-  font-weight: 600; /* google font에서 import한 두께로 설정*/
+  font-weight: 700; /* google font에서 import한 두께로 설정*/
 }
 
 .header .header__icon{

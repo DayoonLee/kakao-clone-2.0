@@ -1,13 +1,38 @@
 .nav{
-  background-color:#F2F2F2;
-  position: fixed;
+  position:fixed;
   width: 100%;
-  height: 50px;
+  background-color:#F2F2F2;
+  padding: 20px 30px;
   left: 0px;
   bottom: 0px;
-  padding: 
+  border-top: 1px solid #F7F7F7;
 }
 
-ul, li{
-  float:left;
+.nav__list{
+  display:flex;
+  justify-content: space-between;
+}
+
+.nav i{
+  font-size: 20px;
+}
+
+.nav .nav__list-link{
+  position: relative;
+}
+
+.nav .nav__badge{
+  background: #E65C40;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  top: -7px;
+  right: -17px;
+  width: 26px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
 }
